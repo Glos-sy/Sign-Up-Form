@@ -1,4 +1,59 @@
 * {
     padding: 0px;
     margin: 0px;
+    overflow: hidden;
+}
+
+body {
+    background: url(./pexels-billel-moula-540518.jpg) no-repeat;
+    background-size: cover;
+}
+
+#main-div {
+    margin: 200px 30%;
+   /* width: 500px;
+   height: 600px; */
+    border-radius: 20px;
+    background-color: white;
+    display: inline-block;
+    padding: 65px;
+}
+
+
+h1 {
+    /* border: 2px solid blue; */
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+input, label {
+    display: block;
+}
+
+label {
+    font-size: 26px;
+    margin-bottom: 5px;
+    font-weight:
+}
+
+#name-text, #password-text {
+    width: 450px;
+    height: 40px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.material-symbols-outlined{}
+
+
+input[type="button"] {
+    font-size: 22px;
+    padding: 10px;
+
 }
